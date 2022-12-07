@@ -17,6 +17,12 @@ html {
 .hero-container {
   height: 100vh;
 }
+#title {
+  color: #fff;
+  text-align: center;
+  padding-top: 2rem;
+  font-size: 5.5rem;
+}
 .flex-container {
   height: 100vh;
   display: flex;
@@ -39,16 +45,44 @@ html {
 .hero-text .name-right {
   margin-right: 10rem;
 }
+
+/* ================================INTRO SECTION ================================ */
 #intro-section {
-  display: flex;
+  display:flex;
+  border: 2px solid red;
 }
 
-.intro-text {
-  padding: 1rem;
-}
-#title {
-  color: #fff;
-  text-align: center;
+#main {
+  width: 100%;
+  border: 2px dashed #0000ff;
   padding-top: 2rem;
+  display: flex;
+  justify-content: center;
+  
+}
+#main h2 {
+  margin-top: 2rem;
   font-size: 3rem;
 }
+#img-div{
+  border: 5px solid #21a83a;
+  text-align: center;
+}
+#image-div img{
+  display: block;
+}
+
+#image {
+  max-width: 100%;
+  width: 200px;
+  object-fit: contain;
+  height: 200px;
+  display: block;
+  margin: 0 auto;
+}
+
+#tribute-info{
+  text-align: center;
+  border:1px solid red;
+}
+/* ================================GALLERY SECTION ================================ */
