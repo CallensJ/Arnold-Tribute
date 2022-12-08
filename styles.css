@@ -1,88 +1,35 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-html {
-  font-size: 62.5%;
-  font-family: "Josefin Sans", sans-serif;
-}
-#hero-section {
-  background-image: url("./images/background.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-}
-.hero-container {
-  height: 100vh;
-}
-#title {
-  color: #fff;
-  text-align: center;
-  padding-top: 2rem;
-  font-size: 5.5rem;
-}
-.flex-container {
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
-}
-.hero-text {
-  margin: 10rem;
-}
-.hero-text {
-  font-family: "Oswald", sans-serif;
-  font-size: 5rem;
-  color: #fff;
-}
-.hero-text .name-left {
-  margin-left: 20rem;
-  color: red;
-}
-.hero-text .name-right {
-  margin-right: 10rem;
+html{
+    font-size: 62.5%;
 }
 
-/* ================================INTRO SECTION ================================ */
-#intro-section {
-  display:flex;
-  border: 2px solid red;
+section{
+    margin-top: 1rem;
 }
 
-#main {
-  width: 100%;
-  border: 2px dashed #0000ff;
-  padding-top: 2rem;
-  display: flex;
-  justify-content: center;
-  
-}
-#main h2 {
-  margin-top: 2rem;
-  font-size: 3rem;
-}
-#img-div{
-  border: 5px solid #21a83a;
-  text-align: center;
-}
-#image-div img{
-  display: block;
+
+#hero-section{
+    height: 100vh;
+    background-image:url('./images/background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
 }
 
-#image {
-  max-width: 100%;
-  width: 200px;
-  object-fit: contain;
-  height: 200px;
-  display: block;
-  margin: 0 auto;
+#title{
+    color: #ffffff;
 }
 
-#tribute-info{
-  text-align: center;
-  border:1px solid red;
-}
-/* ================================GALLERY SECTION ================================ */
+
+/*--------------------ABOUT SECTION--------------------------------*/
+/*--------------------CHRONOLOGY SECTION--------------------------------*/
+
