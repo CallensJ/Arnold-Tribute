@@ -33,3 +33,25 @@ section{
 /*--------------------ABOUT SECTION--------------------------------*/
 /*--------------------CHRONOLOGY SECTION--------------------------------*/
 
+#chronology{
+    border: 1px solid red;
+
+}
+#main{
+    width: 100%;
+   
+}
+
+#img-div{
+    border: 2px dashed blue;
+    width: 400px;
+    margin: 0 auto;
+
+}
+
+#image{
+    max-width: 100%;
+    display: block;
+    height: auto;
+    
+}
