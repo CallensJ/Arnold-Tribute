@@ -1,57 +1,95 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-html{
-    font-size: 62.5%;
-}
-
-section{
-    margin-top: 1rem;
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
 }
 
 
-#hero-section{
-    height: 100vh;
-    background-image:url('./images/background.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
 
+#hero-section {
+  height: 100vh;
+  background-image: url("./images/background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
 
-#title{
-    color: #ffffff;
+#title {
+  color: #ffffff;
+  
 }
-
 
 /*--------------------ABOUT SECTION--------------------------------*/
+
+#about {
+  
+  margin-top: 5rem;
+
+}
+#about .introduction {
+  background: #fff;
+  border: 1px solid #fff;
+  font-family: "IM Fell French Canon Pro";
+  font-size: 2.3rem;
+  padding: 2rem 25%;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-direction: row;
+    max-width: 80%;
+    margin: 0 auto;
+    justify-content: center;
+    margin-bottom: 10rem;
+  }
+  .cards img {
+    width: 250px;
+    height: 300px;
+    margin: 10px;
+    box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.3);
+    object-fit: cover;
+    
+  }
 /*--------------------CHRONOLOGY SECTION--------------------------------*/
 
-#chronology{
-    border: 1px solid red;
-
+#chronology {
+    padding-top: 5rem;
+    background-color:#cacccf;
+    border: 2px solid black;
+    margin-top: 20rem;
 }
-#main{
+#main {
+  width: 400px;
+  margin: 0 auto;
+}
+
+#img-div {
+    text-align: center;
     width: 100%;
-   
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
 }
 
-#img-div{
-    border: 2px dashed blue;
-    width: 400px;
-    margin: 0 auto;
-
+#image {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  
 }
-
-#image{
-    max-width: 100%;
-    display: block;
-    height: auto;
-    
+#img-caption {
+    padding: 3rem;
+    font-size: 1.3rem;
+    font-weight: bold;
 }
