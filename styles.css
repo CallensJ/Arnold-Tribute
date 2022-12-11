@@ -109,7 +109,7 @@ body{
 
 /*--------------------QUOTE SECTION--------------------------------*/
 #quote{
-  background-image: url('./images/image-2.webp');
+  background-image: url('https://raw.githubusercontent.com/CallensJ/Arnold-Tribute/main/images/image-2.webp');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
