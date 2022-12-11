@@ -16,7 +16,7 @@ body{
 
 #hero-section {
   height: 100vh;
-  background-image: url("./images/background.jpg");
+  background-image: url("https://raw.githubusercontent.com/CallensJ/Arnold-Tribute/main/images/background.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
